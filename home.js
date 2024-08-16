@@ -1,6 +1,6 @@
 import { onAuthStateChanged ,signOut } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-auth.js";
 import {auth ,db} from './config.js'
-import { collection, addDoc, getDocs, doc, deleteDoc, updateDoc, query, where } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore.js"
+import { collection, addDoc, getDocs, doc, deleteDoc, updateDoc } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore.js"
 
 
 
@@ -16,7 +16,7 @@ import { collection, addDoc, getDocs, doc, deleteDoc, updateDoc, query, where } 
           
           // ...
         } else {
-         window.location = 'login.html'
+         window.location = 'index.html'
         }
       });
 
