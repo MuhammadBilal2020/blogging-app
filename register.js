@@ -23,7 +23,7 @@ forms.addEventListener('submit' , (event)=>{
             console.log(user);
              
             
-            // window.location = "login.html"
+            window.location = "index.html"
             
             
             
